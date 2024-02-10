@@ -2,4 +2,9 @@
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("styles");
+
+
+
+  let bruh = "hi there"
 };
+
