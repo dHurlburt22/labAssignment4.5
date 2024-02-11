@@ -5,6 +5,11 @@ module.exports = function(eleventyConfig) {
 
 
 
-  let bruh = "hi there"
+  eleventyConfig.addShortcode("planetInfo", function(planetName, planetDistance){
+    return `<div class="planetInfo">
+        <div class="planet_name">${planetName}</div>
+        <div class="planet_distance">${planetDistance}</div>
+    </div>`;
+  });
 };
 
