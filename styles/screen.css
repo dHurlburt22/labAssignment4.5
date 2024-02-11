@@ -56,10 +56,6 @@ img.about {
     border-radius: 50%;
 }
 
-.cards{
-
-}
-
 .topHeading{
     font-size: 5rem;
     color:white;
@@ -285,11 +281,7 @@ h3{
     height:160px;
     transition: background-color, width, height, .5s ease-in;
   }
-
-  .bigPlanetCard{
-
-  }
-
+  
   p{
     margin:5px;
   }
