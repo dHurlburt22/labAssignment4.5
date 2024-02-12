@@ -61,10 +61,6 @@ img.about {
 
 }
 
-h3{
-    font-size: 1rem;
-}
-
 .grid-container {
     display: grid;
     grid-auto-rows: 270px;
@@ -98,7 +94,8 @@ h3{
   .sunImage{
     width:280px;
     height:280px;
-    background-color:rgb(214, 219, 73);
+    background: radial-gradient(circle at center, rgb(255, 111, 0) 50%, rgb(255, 249, 88), rgb(255, 255, 210) 100%);
+    /*background-color:rgb(214, 219, 73); */
     border-radius: 50%;
     align-self: center;
     margin:auto;
@@ -145,7 +142,8 @@ h3{
   .venusImage{
     width:75px;
     height:75px;
-    background-color:rgb(235, 185, 36);
+    background: linear-gradient(100deg,rgb(241, 93, 29), rgb(246, 184, 148));
+    /*background-color:rgb(241, 114, 29); */
     border-radius: 50%;
     margin: auto;
   }
@@ -164,7 +162,8 @@ h3{
   .earthImage{
     width:80px;
     height:80px;
-    background-color:rgb(74, 183, 89);
+    background: linear-gradient(100deg, rgb(74, 183, 89), rgb(101, 188, 250));
+    /*background-color:rgb(74, 183, 89); */
     border-radius: 50%;
     margin: auto;
   }
@@ -221,7 +220,8 @@ h3{
   .saturnImage{
     width:120px;
     height:120px;
-    background-color:rgb(213, 196, 64);
+    background: linear-gradient(45deg, rgb(242, 207, 66), rgb(241, 230, 129));
+    /*background-color:rgb(213, 196, 64); */
     border-radius: 50%;
     margin: auto;
   }
@@ -259,7 +259,7 @@ h3{
   .neptuneImage{
     width:90px;
     height:90px;
-    background-color:rgb(141, 39, 231);
+    background-color:rgb(128, 84, 248);
     border-radius: 50%;
     margin: auto;
   }
@@ -268,24 +268,6 @@ h3{
     background-color: var(--galaxy-purple);
     color:var(--moon-white);
     transition: background-color, color, .5s ease-in;
-  }
-
-
-  .smallPlanetCards{
-    width:80px;
-    height:80px;
-    background-color:white;
-    border-radius: 50%;
-    margin: auto;
-  }
-
-  .smallPlanetCards6{
-    width:80px;
-    height:80px;
-    background-color:white;
-    border-radius: 50%;
-    margin: auto;
-    transition: background-color, width, height, .5s ease-out;
   }
 
   p{
