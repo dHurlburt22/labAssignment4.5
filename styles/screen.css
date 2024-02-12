@@ -108,6 +108,11 @@ img.about {
     
   }
 
+  .planet_name{
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+
   .sunBox:hover{
     background-color: var(--galaxy-purple);
     color: var(--moon-white);
